@@ -12,3 +12,4 @@ x = Math.sqrt(x); // squareroot
 x = Math.abs(x); //  to find absolute value(distance away from zero)
 maximum = Math.max(x, y, z); // find maxium value
 minimum = Math.min(x, y, z); // find minimum
+x = Math.PI // display Pie
