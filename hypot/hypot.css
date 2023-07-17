@@ -1,0 +1,22 @@
+body {
+    padding: 40px;
+    background: rgba(233, 226, 226, 0.966);
+    text-align: center;
+}
+
+#submitButton {
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: rgb(117, 173, 112);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
