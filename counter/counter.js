@@ -10,9 +10,11 @@ decreaseBtn.addEventListener("click", function(){
 })
 
 resetBtn.addEventListener("click", function(){
-
+     count = 0;
+     countLabel.innerHTML = count
 })
 
 increaseBtn.addEventListener("click", function(){
-
+     count+=1;
+     countLabel.innerHTML =count
 })
