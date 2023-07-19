@@ -1,7 +1,18 @@
-let x = Math.floor(Math.random() * 6) + 1;
-let y = Math.floor(Math.random() * 6) + 1;
-let z = Math.floor(Math.random() * 6) + 1;
+const rollButton = document.getElementById("random-button")
+let xLabel = document.getElementById("xLabel")
+let yLabel = document.getElementById("yLabel")
+let zLabel = document.getElementById("zLabel")
 
-console.log(x);
-console.log(y);
-console.log(z);
+let x;
+let y; 
+let z; 
+
+rollButton.addEventListener("click", function(){
+    x = Math.floor(Math.random() * 6) + 1;
+    y = Math.floor(Math.random() * 6) + 1;
+    z = Math.floor(Math.random() * 6) + 1;
+    
+    xLabel.textContent = x
+    yLabel.textContent = y
+    zLabel.textContent = z
+})
