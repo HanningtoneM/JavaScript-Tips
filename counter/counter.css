@@ -9,3 +9,28 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+}
+
+button:hover {
+    transform-origin: 0.8;
+}
+
+#decrease-button {
+    background-color: rgb(187, 45, 45);
+    color: #fff;
+}
+
+#reset-button {
+    background-color: rgb(59, 59, 165);
+    color: #fff;
+}
+
+#increase-button {
+    background-color: rgb(29, 141, 29);
+    color: #fff;
+}
