@@ -9,7 +9,7 @@ userName = userName.trim() // trim empty spaces
 userName = userName.toLocaleUpperCase() //uppercase
 userName = userName.toLocaleLowerCase() // lowercase
 
-phoneNumber = phoneNumber.replaceAll("-", "9") // replace the string
+phoneNumber = phoneNumber.replaceAll("-", "/") // replace the string
 
 console.log(userName)
 console.log(phoneNumber)
