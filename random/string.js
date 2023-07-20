@@ -1,15 +1,15 @@
 let userName = "Hanningtone Monda  "
 let phoneNumber = "123-456-7890"
-console.log(userName.length)
-console.log(userName.charAt(0))
-console.log(userName.indexOf("i"))
-console.log(userName.lastIndexOf("e"))
+console.log(userName.length) // length of string
+console.log(userName.charAt(0)) // where string is located
+console.log(userName.indexOf("i")) // number osf string
+console.log(userName.lastIndexOf("e")) // last index
 
-userName = userName.trim()
-userName = userName.toLocaleUpperCase()
-userName = userName.toLocaleLowerCase()
+userName = userName.trim() // trim empty spaces
+userName = userName.toLocaleUpperCase() //uppercase
+userName = userName.toLocaleLowerCase() // lowercase
 
-phoneNumber = phoneNumber.replaceAll("-", "9")
+phoneNumber = phoneNumber.replaceAll("-", "9") // replace the string
 
 console.log(userName)
 console.log(phoneNumber)
