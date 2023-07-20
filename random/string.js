@@ -13,3 +13,17 @@ phoneNumber = phoneNumber.replaceAll("-", "/") // replace the string
 
 console.log(userName)
 console.log(phoneNumber)
+
+
+// slice method
+// extracts a section of a string to create a new string without
+// modyfing the existing string
+
+let fullName = "Hanningtone Monda"
+let firstName;
+let lastName;
+
+firstName = fullName.slice(0, fullName.indexOf(" "))
+lastName = fullName.slice(fullName.indexOf(" ")+1)
+console.log(lastName)
+console.log(firstName)
