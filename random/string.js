@@ -27,3 +27,10 @@ firstName = fullName.slice(0, fullName.indexOf(" "))
 lastName = fullName.slice(fullName.indexOf(" ")+1)
 console.log(lastName)
 console.log(firstName)
+
+
+// Method chaining = calling one method after another in one continous line of code
+let nameOne = "Monda"
+let letter = userName.charAt(0)
+letter = letter.toUpperCase()
+console.log(letter)
