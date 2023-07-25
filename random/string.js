@@ -33,3 +33,15 @@ console.log(firstName)
 let nameOne = "Monda"
 let letter = userName.charAt(0).toUpperCase().trim()
 console.log(letter)
+
+
+// if statement = a basic form of decision making if a condition is true
+//                then do something if not , then donot do something
+
+let age = 21
+
+if(age >= 21) {
+    console.log("adult")
+} else if(age < 21) {
+    console.log("child")
+}
