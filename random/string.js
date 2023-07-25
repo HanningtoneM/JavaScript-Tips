@@ -31,6 +31,5 @@ console.log(firstName)
 
 // Method chaining = calling one method after another in one continous line of code
 let nameOne = "Monda"
-let letter = userName.charAt(0)
-letter = letter.toUpperCase()
+let letter = userName.charAt(0).toUpperCase()
 console.log(letter)
