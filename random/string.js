@@ -35,10 +35,24 @@ console.log(letter);
 // if statement = a basic form of decision making if a condition is true
 //                then do something if not , then donot do something
 
-let age = 21;
+let age = 2;
 
 if (age >= 21) {
 	console.log("adult");
-} else if (age < 21) {
+
+} else if ( age < 3) {
+    console.log("Baby")
+}
+
+else {
 	console.log("child");
+}
+
+let online = true
+
+if(online) {
+    console.log("You are online")
+}
+else {
+    console.log("offline")
 }
