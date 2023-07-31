@@ -77,14 +77,14 @@ switch(true){
 let temp = 15;
 let sunny = true
 
-if(temp > 0 && temp < 30){
+if(temp > 0 && temp < 30 && sunny){
     console.log("Weather is good")
 }
 else {
     console.log("Bad weather")
 }
 
-if(temp <= 0 || temp >= 30) {
+if(temp <= 0 || temp >= 30 || sunny) {
     console.log("good weather")
 }
 else{
