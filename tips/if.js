@@ -28,3 +28,5 @@ button.addEventListener("click", function(){
     console.log("select payment")
    }
 })
+
+// switch = statement that examines a value for a match against many case clauses. more efficent than using many "else if"
