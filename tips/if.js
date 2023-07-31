@@ -30,3 +30,20 @@ button.addEventListener("click", function(){
 })
 
 // switch = statement that examines a value for a match against many case clauses. more efficent than using many "else if"
+
+let grade = "A"
+
+switch(grade){
+    case "A":
+     console.log("You did great")
+    case "B":
+      console.log("You did good")
+    case "C":
+        console.log("You did okay")
+    case "D":
+        console.log("You passed...barely")
+    case "F":
+        console.log("Failed")
+    default:
+        console.log("Not a letter Grade")    
+}
