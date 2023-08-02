@@ -39,20 +39,16 @@ let age = 2;
 
 if (age >= 21) {
 	console.log("adult");
-
-} else if ( age < 3) {
-    console.log("Baby")
-}
-
-else {
+} else if (age < 3) {
+	console.log("Baby");
+} else {
 	console.log("child");
 }
 
-let online = true
+let online = true;
 
-if(online) {
-    console.log("You are online")
-}
-else {
-    console.log("offline")
+if (online) {
+	console.log("You are online");
+} else {
+	console.log("offline");
 }
