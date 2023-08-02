@@ -22,25 +22,24 @@ switch (grade) {
 		console.log("Not a letter Grade");
 }
 
-
 let numberGrade = 50;
 
-switch(true){
-    case numberGrade >= 90:
-        console.log("You did great")
-        break
-    case numberGrade >= 80:
-        console.log("You did good")
-        break
-    case numberGrade >= 70:
-        console.log("you did okay")
-        break
-    case numberGrade >= 60:
-        console.log("You passed... barely")
-        break
-    case numberGrade >= 50:
-        console.log("FAILED")
-        break
-    default:
-        console.log(numberGrade, "Not a number")
+switch (true) {
+	case numberGrade >= 90:
+		console.log("You did great");
+		break;
+	case numberGrade >= 80:
+		console.log("You did good");
+		break;
+	case numberGrade >= 70:
+		console.log("you did okay");
+		break;
+	case numberGrade >= 60:
+		console.log("You passed... barely");
+		break;
+	case numberGrade >= 50:
+		console.log("FAILED");
+		break;
+	default:
+		console.log(numberGrade, "Not a number");
 }
