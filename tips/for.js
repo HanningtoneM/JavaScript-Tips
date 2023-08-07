@@ -24,7 +24,7 @@ for (let i = 1; i <= 20; i++) {
 let symbol = window.prompt("enter symbol");
 let rows = window.prompt("Enter rows");
 let columns = window.prompt("enter columns");
-const rectangle = document.getElementById("rectangle")
+const rectangle = document.getElementById("rectangle");
 
 for (let i = 1; i <= rows; i++) {
 	for (let j = 1; j <= columns; j++) {
