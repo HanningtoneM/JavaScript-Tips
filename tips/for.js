@@ -21,13 +21,13 @@ for (let i = 1; i <= 20; i++) {
 }
 
 // nested loop = a loop inside another loop
-let symbol = window.prompt("enter symbol")
-let rows = window.prompt("Enter rows")
-let columns = window.prompt("enter columns")
+let symbol = window.prompt("enter symbol");
+let rows = window.prompt("Enter rows");
+let columns = window.prompt("enter columns");
 
-for(let i = 1; i<=rows; i++){
-	for(let j = 1; j<=columns; j++){
-		document.getElementById("rectangle").innerHTML +=symbol
+for (let i = 1; i <= rows; i++) {
+	for (let j = 1; j <= columns; j++) {
+		document.getElementById("rectangle").innerHTML += symbol;
 	}
-	document.getElementById("rectangle").innerHTML += "<br>"
+	document.getElementById("rectangle").innerHTML += "<br>";
 }
