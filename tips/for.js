@@ -19,3 +19,10 @@ for (let i = 1; i <= 20; i++) {
 	}
 	console.log(i);
 }
+
+// nested loop = a loop inside another loop
+let symbol = window.prompt("enter symbol")
+let rows = window.prompt("Enter rows")
+let columns = window.prompt("enter columns")
+
+
