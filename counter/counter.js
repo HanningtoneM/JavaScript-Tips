@@ -18,4 +18,3 @@ increaseBtn.addEventListener("click", function () {
 	count += 1;
 	countLabel.innerHTML = count;
 });
-
