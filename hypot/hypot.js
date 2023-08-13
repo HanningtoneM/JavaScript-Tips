@@ -15,4 +15,3 @@ btn.addEventListener("click", function () {
 
 	document.getElementById("labelc").innerHTML = "Side C: " + c;
 });
-
