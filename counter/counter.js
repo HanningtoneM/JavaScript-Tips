@@ -4,17 +4,17 @@ const resetBtn = document.getElementById("reset-button");
 const increaseBtn = document.getElementById("increase-button");
 let countLabel = document.getElementById("countLabel");
 
-decreaseBtn.addEventListener("click", function () {
+decreaseBtn.addEventListener("click", () => {
 	count -= 1;
 	countLabel.innerHTML = count;
 });
 
-resetBtn.addEventListener("click", function () {
+resetBtn.addEventListener("click", () => {
 	count = 0;
 	countLabel.innerHTML = count;
 });
 
-increaseBtn.addEventListener("click", function () {
+increaseBtn.addEventListener("click", () => {
 	count += 1;
 	countLabel.innerHTML = count;
 });
