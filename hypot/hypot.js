@@ -4,7 +4,7 @@ let c;
 
 const btn = document.getElementById("submitButton");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", () => {
 	a = document.getElementById("aTextBox").value;
 	a = Number(a);
 
