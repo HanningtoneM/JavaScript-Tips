@@ -7,7 +7,7 @@ let x;
 let y;
 let z;
 
-rollButton.addEventListener("click", function () {
+rollButton.addEventListener("click", () => {
 	x = Math.floor(Math.random() * 6) + 1;
 	y = Math.floor(Math.random() * 6) + 1;
 	z = Math.floor(Math.random() * 6) + 1;
