@@ -4,7 +4,7 @@ const visaButton = document.getElementById("visaBtn");
 const masterBtn = document.getElementById("masterBtn");
 const paypalBtn = document.getElementById("paypalBtn");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
 	if (checkBox.checked == true) {
 		console.log("subscribed");
 	} else {
